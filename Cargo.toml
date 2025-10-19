@@ -1,0 +1,16 @@
+[package]
+name = "macroquad_server_handler"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A lightweight multiplayer server handler for Macroquad. Built by me — feedback and improvement tips are always welcome!"
+readme = "README.md"
+keywords = ["macroquad", "multiplayer", "server", "networking", "game-dev"]
+categories = ["game-development", "network-programming"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+laminar = "0.5"
+glam = "0.26"
+crossbeam-channel = "0.5"

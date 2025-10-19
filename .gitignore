@@ -1,0 +1,45 @@
+# ===== Rust / Cargo =====
+target/
+Cargo.lock
+**/*.rs.bk
+
+# ===== Build Artifacts =====
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+
+# ===== IDEs / Editors =====
+# VS Code
+.vscode/
+# IntelliJ / CLion
+.idea/
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ===== OS-specific =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Logs / Misc =====
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ===== Environment / Secrets =====
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config.json
