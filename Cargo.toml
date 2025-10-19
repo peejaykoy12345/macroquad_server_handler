@@ -7,6 +7,7 @@ description = "A lightweight multiplayer server handler for Macroquad. Built by 
 readme = "README.md"
 keywords = ["macroquad", "multiplayer", "server", "networking", "game-dev"]
 categories = ["game-development", "network-programming"]
+repository = "https://github.com/peejaykoy12345/macroquad_server_handler"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
